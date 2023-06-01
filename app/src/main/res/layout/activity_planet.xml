@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlanetActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:background="#FF9800"></androidx.appcompat.widget.Toolbar>
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        tools:openDrawer="start">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/earthFact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/planets"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="@string/Planets" />
+
+            <EditText
+                android:id="@+id/planetOne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/planetNames" />
+            <EditText
+                android:id="@+id/planetTwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/planetNames" />
+            <EditText
+                android:id="@+id/planetThree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/planetNames" />
+            <EditText
+                android:id="@+id/planetFour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/planetNames" />
+            <EditText
+                android:id="@+id/planetFive"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/planetNames" />
+            <EditText
+                android:id="@+id/planetSix"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/planetNames" />
+            <EditText
+                android:id="@+id/planetSeven"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/planetNames" />
+            <EditText
+                android:id="@+id/planetEight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/planetNames" />
+
+            <Button
+                android:id="@+id/answerButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/answer"/>
+
+        </LinearLayout>
+
+
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/navigationView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:fitsSystemWindows="true"
+            app:menu="@menu/navigation_drawer"></com.google.android.material.navigation.NavigationView>
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+
+</RelativeLayout>

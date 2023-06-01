@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item1"
+        android:title="@string/item1"
+        android:orderInCategory="1"
+        android:icon="@drawable/spaceship"
+        app:showAsAction="always">
+    </item>
+
+    <item
+        android:id="@+id/item2"
+        android:title="@string/item2"
+        android:orderInCategory="2"
+        android:icon="@drawable/earth"
+        app:showAsAction="always">
+    </item>
+
+    <item
+        android:id="@+id/item4"
+        android:title="@string/planetPage"
+        android:orderInCategory="3"
+        android:icon="@drawable/solarsystem"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/item3"
+        android:title="@string/help"
+        android:orderInCategory="4"
+        android:icon="@drawable/help"
+        app:showAsAction="always"/>
+
+
+
+
+</menu>

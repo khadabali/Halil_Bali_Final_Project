@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">Serious Space Ver.1.0</string>
+    <string name="welcome">Welcome to Halil\'s NASA Space Application!</string>
+
+    <!-- open/close navigation -->
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <!--  alert message  -->
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="alertTitle">Remove this image?</string>
+
+    <!--  months abbreviated  -->
+    <string name="JAN">JAN</string>
+    <string name="FEB">FEB</string>
+    <string name="MAR">MAR</string>
+    <string name="APR">APR</string>
+    <string name="MAY">MAY</string>
+    <string name="JUN">JUN</string>
+    <string name="JUL">JUL</string>
+    <string name="AUG">AUG</string>
+    <string name="SEP">SEP</string>
+    <string name="OCT">OCT</string>
+    <string name="NOV">NOV</string>
+    <string name="DEC">DEC</string>
+
+    <!--  item names  -->
+    <string name="item1">Get ready for cool NASA space pictures!!</string>
+    <string name="item2">This is the Earth</string>
+
+    <!--  names in navigation drawer  -->
+    <string name="navTitle">Halil\'s Space Pics Application Version 1.0</string>
+    <string name="actionHome">Home</string>
+    <string name="actionDatePicker">Pick a date</string>
+    <string name="actionExit">Exit app</string>
+
+    <!--  fragment strings  -->
+    <string name="fragmentDate">Date:</string>
+    <string name="fragmentUrl">URL:</string>
+    <string name="fragmentTitle">Title:</string>
+    <string name="goBack">Go Back</string>
+
+    <!-- DatePicker Page -->
+    <string name="name">What is your name?</string>
+    <string name="button">Click!</string>
+    <string name="Hello">"Hello"</string>
+    <string name="ChangeName">Change Name</string>
+    <string name="Space">Space Pix!</string>
+    <string name="clear_list">Clear All</string>
+    <string name="textDateMessage">Pick a date</string>
+
+    <!-- Earth Facts -->
+    <string name="know">Did you know this?</string>
+    <string name="earth1">Earth is the third rock from the Sun!</string>
+    <string name="earth2">The Earth is not a perfect sphere!</string>
+    <string name="earth3">Chili had the largest earthquake on May 22, 1960 with a magnitude of 9.5!</string>
+    <string name="earth4">According to NASA Earth Observatory, El Azizia, Libya recorded the hottest temperature at 57.8 degrees Celsius!</string>
+    <string name="earth5">The coldest place on Earth is Antarctica. Winter temperatures can drop below minus 73 degrees Celsius!</string>
+    <string name="earth6"> The Earths gravity is uneven across the globe due to the Earth not being a perfect sphere!</string>
+    <string name="earth7">Earth may have once had 2 moons!</string>
+    <string name="earth8">People have climbed Mount Everest (29,029 feet above sea level) without oxygen!</string>
+
+    <string name="clear">Cleared all</string>
+    <string name="noElements">There are no elements in the list</string>
+
+    <!-- help popup -->
+    <string name="help">Help</string>
+    <string name="helpTitle">How to use the app:</string>
+    <string name="helpText">Enter your name and click the "Click!" button to go to the next page.\n
+    Select a date using the date picker, and click OK. \n
+    Click on the list item to see the Title, Date, and URL of the item selected. \n
+    Long press the list item to remove from the list. \n \n
+        Icon Instructions: \n
+    Click on the Spaceship icon to go to the list of your NASA Space pictures. \n
+    Click on the Earth to see cool Earth facts! \n
+    Click on the Solar System for a fun knowledge game!</string>
+    <string name="doneHelp">Done</string>
+    <string name="DatePickerPage">Date Picker</string>
+
+    <!-- Planets -->
+    <string name="Planets">What are the names of the Planets?</string>
+    <string name="planetPage">Let\'s talk about Planets!</string>
+    <string name="planetPageTitle">Planet Page</string>
+    <string name="answer">Click for the answer!</string>
+    <string name="Mercury">Mercury</string>
+    <string name="Venus">Venus</string>
+    <string name="Earth">Earth</string>
+    <string name="Mars">Mars</string>
+    <string name="Jupiter">Jupiter</string>
+    <string name="Saturn">Saturn</string>
+    <string name="Uranus">Uranus</string>
+    <string name="Neptune">Neptune</string>
+    <string name="planetNames">Planet Names</string>
+
+</resources>

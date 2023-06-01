@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">Serious Space! Ver.1.0</string>
+    <string name="welcome">Bienvenue dans l\'application spatiale Halil de la NASA!</string>
+
+    <string name="open">Ouvert</string>
+    <string name="close">Ferme</string>
+
+    <!-- alert msg -->
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="alertTitle">Supprimer cette image?</string>
+
+    <!--  months abbreviated  -->
+    <string name="JAN">JANV</string>
+    <string name="FEB">FÉVR</string>
+    <string name="MAR">MARS</string>
+    <string name="APR">AVRIL</string>
+    <string name="MAY">MAI</string>
+    <string name="JUN">JUIN</string>
+    <string name="JUL">JUIL</string>
+    <string name="AUG">AOÛT</string>
+    <string name="SEP">SEPT</string>
+    <string name="OCT">OCT</string>
+    <string name="NOV">NOV</string>
+    <string name="DEC">DÉC</string>
+
+    <!--  item names  -->
+    <string name="item1">Préparez-vous pour de superbes images spatiales de la NASA!!</string>
+    <string name="item2">C\'est la terre</string>
+
+    <!--  names in navigation drawer  -->
+    <string name="navTitle">Application d\'imgaes spatiales Halil</string>
+    <string name="actionHome">Page D\'accueil</string>
+    <string name="actionDatePicker">Choisis une date</string>
+    <string name="actionExit">Quitter l\'application</string>
+
+    <!--  fragment strings  -->
+    <string name="fragmentDate">Date:</string>
+    <string name="fragmentUrl">URL:</string>
+    <string name="fragmentTitle">Titre:</string>
+    <string name="goBack">Retourner</string>
+
+    <!-- Date Picker -->
+    <string name="name">Quel est votre nom?</string>
+    <string name="button">Cliquez sur!</string>
+    <string name="Hello">"Bonjour"</string>
+    <string name="ChangeName">Changer de nom</string>
+    <string name="Space">Image de l\'espace!</string>
+    <string name="clear_list">Effacer la liste</string>
+    <string name="textDateMessage">Choisis une date</string>
+
+    <!-- Earth Facts -->
+    <string name="know">Le savais-tu?</string>
+    <string name="earth1">La Terre est le troisiéme rocher à partir du soleil!</string>
+    <string name="earth2">La Terre n\'est pas une sphére parfaite!</string>
+    <string name="earth3">Chili a eu le plus gran tremblement de terre le 22 Mai 1960 avec une magnitude de 9,5!</string>
+    <string name="earth4">Selon l\'observatoire de la Terre de la NASA, El Azizia, la Libye a enregistré la température la plus chause à 57.8 degés Celsius!</string>
+    <string name="earth5">L\'endroit le plus froid sur terre est l\'Antarctique. Les températures hivernales peuvent descendre en dessous de moin 73 degrés Celsius!</string>
+    <string name="earth6">La gravité de la terre est inégale à travers le globe car la terre n\'est pas une shére parfaite!</string>
+    <string name="earth7">La terre peut avoir une avait deux lunes!</string>
+    <string name="earth8">Les gens ont escaladé le mon Everest (29 029 pieds au-dessus du niveau de la mer) sans oxygène!</string>
+
+    <string name="clear">Tout effacé</string>
+    <string name="noElements">Il n\'ya pas d\'éléments dans la liste</string>
+
+    <!-- help popup -->
+    <string name="help">Aider</string>
+    <string name="helpTitle">Comment utilizer l\'application:</string>
+    <string name="helpText">Entrez votre nom et cliquez sur le "Cliquez Sur!" bouton pour passer à la page suivante.\n
+    Sélectionnez une date à l\'aide du sélecteur de date, puis cliquez sur OK. \n
+    Cliquez sur l\'élément de la liste pour voir le titre, la date et l\'URL de l\'élément sélectionné. \n
+    Appuyez longuement sur l\'élément de la liste à supprimer de la liste. \n \n
+        Instructions d\'icône: \n
+    Cliquez sur l\'icône du vaisseau spatial pour accéder à la liste de vos images spatiales de la NASA. \n
+    Cliquez sur la Terre pour voir des faits intéressants sur la Terre ! \n
+    Cliquez sure le systéme solaire pour un jeu de connaissances amusant!</string>
+    <string name="doneHelp">Fini</string>
+    <string name="DatePickerPage">Sélecteur de Date</string>
+
+    <!-- Planets -->
+    <string name="Planets">Quel sont les noms des Planètes?</string>
+    <string name="planetPage">Parlons des Planètes!</string>
+    <string name="planetPageTitle">Page Planète</string>
+    <string name="answer">Cliquez pour la réponse!</string>
+    <string name="Mercury">Mercure</string>
+    <string name="Venus">Vénus</string>
+    <string name="Earth">La Terre</string>
+    <string name="Mars">Mars</string>
+    <string name="Jupiter">Jupiter</string>
+    <string name="Saturn">Saturne</string>
+    <string name="Uranus">Uranus</string>
+    <string name="Neptune">Neptune</string>
+    <string name="planetNames">Noms de Planète</string>
+</resources>

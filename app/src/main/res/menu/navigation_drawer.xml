@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--  navigation to home  -->
+    <item
+        android:id="@+id/actionHome"
+        android:title="@string/actionHome"
+        android:orderInCategory="1"
+        android:icon="@drawable/home">
+    </item>
+
+<!--  navigation to pick a date  -->
+    <item
+        android:id="@+id/actionDatePicker"
+        android:title="@string/actionDatePicker"
+        android:orderInCategory="2"
+        android:icon="@drawable/calendar">
+    </item>
+
+
+<!--  navigation to planet page  -->
+    <item
+        android:id="@+id/actionPlanetPage"
+        android:title="@string/planetPage"
+        android:orderInCategory="3"
+        android:icon="@drawable/colorlesssolarsystem">
+    </item>
+
+
+<!--  navigation to exit app  -->
+    <item
+        android:id="@+id/actionExit"
+        android:title="@string/actionExit"
+        android:orderInCategory="4"
+        android:icon="@drawable/exit">
+    </item>
+
+<!-- navigation to help blurb -->
+    <item
+        android:id="@+id/actionHelp"
+        android:title="@string/help"
+        android:orderInCategory="5"
+        android:icon="@drawable/help">
+    </item>
+
+
+</menu>
